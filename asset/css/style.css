@@ -15,23 +15,83 @@ a:hover {
 }
 
 :root {
-  --red:#F23E36;
-  --white:#FFFFFF;
-  --black:black;
-
+  --red: #f23e36;
+  --white: #ffffff;
+  --black: black;
 }
+.redbg {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+/* logo */
+#companylogo img {
+  width: 8rem;
+  height: 3rem;
+  padding: 1px;
+  margin-left: 1px;
+}
+#coursesbutton {
+  display: flex;
+  border: none;
+  text-align: center;
+}
+#coursesbutton button {
+  padding-bottom: 0.3rem;
+}
+#coursesbutton span {
+  display: flex;
+  flex-direction: start;
+  float: right;
+  font-size: 20px;
+  margin-left: 0.5rem;
+  padding-top: 1px;
+}
+/* searchbar */
+#searchbar{
+  width:40%;
+  margin-left: 1rem;
+  border-radius: 3px;
+}
+#searchbar button{
+  background-color:lightgray;
+  color:var(--black);
+  border:none;
+}
+#searchbar button:hover{
+  background-color:var(--red);
+  color:var(--white);
+  border:none;
+}
+#searchbar .material-icons{
+  font-size:20px;
+  padding: 5px;  
+}
+#links li a{
+  color: var(--black);
+}
+#links li :hover{
+  color:var(--red);
+}
+#wishlisticon span{
+  font-size: 20px;
+  padding-top: 0.3rem;
+}
+#wishlisticon span:hover
+{
+  color: var(--red);
+}
+
+
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
-
 }
- 
+
 /* iPads ----------- */
 @media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {
-
 }
-  
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-device-width: 1025px) {
   /* all site heading */
-  
 }
