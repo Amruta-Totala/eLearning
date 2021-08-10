@@ -81,10 +81,53 @@ a:hover {
 {
   color: var(--red);
 }
-
-
+#startlearningbutton button{
+border:none;
+padding:0.5rem;
+}
+#sb-toggle {
+  font-size: 14px;
+}
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+  #coursesbutton {
+    display:none;
+  }
+  #startlearningbutton button{
+    display:none;
+  }
+  .offcanvas-collapse {
+    position: fixed;
+    visibility: hidden;
+  }
+  #sb-toggle
+  {
+    margin-right: 0.5rem;
+    padding:1px;
+    margin-left: -11rem;
+    margin-bottom: 0.4rem;
+  }
+  #searchbar{
+    width: 100%;
+    display:flex;
+    padding:1px;
+   padding-bottom: 0.5rem;
+   margin-bottom: 0.5rem;
+  }
+  #searchbar input{
+    margin-left:-1rem; 
+  }
+  #companylogo img{
+  margin-left:-11rem;
+  margin-bottom: 0.5rem;
+  padding:1px;
+  }
+  #wishlisticon span
+  {
+    display: none;
+  }
+ 
+
 }
 
 /* iPads ----------- */
@@ -94,4 +137,8 @@ a:hover {
 /* Desktops and laptops ----------- */
 @media only screen and (min-device-width: 1025px) {
   /* all site heading */
+  #mobilewishlisticon
+  {
+    display: none;
+  }
 }
