@@ -102,9 +102,10 @@ padding:0.5rem;
   }
   #sb-toggle{
     margin-bottom: 0.5rem;
-    padding-right: 1px;
     margin-left: 0.2rem;
+  
   }
+  
   #searchbar{
     width: 100%;
     display:flex;
