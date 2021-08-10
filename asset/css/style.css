@@ -101,8 +101,8 @@ padding:0.5rem;
     visibility: hidden;
   }
   #sb-toggle{
-    margin-bottom: 0.5rem;
-    margin-left: 0.2rem;
+    margin-bottom: 0.7rem;
+    margin-left: 0.1rem;
   
   }
   
@@ -129,11 +129,12 @@ padding:0.5rem;
   {
     font-size: 20px;
     margin-bottom:0.7rem;
-    margin-right: 0.2rem;
+    margin-right: 0.3rem;
     padding: 1px;
   }
   #mobilewishlisticon span:hover
   {
+    cursor: pointer;
     color:var(--red);
   }
 
