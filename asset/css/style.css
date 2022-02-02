@@ -23,7 +23,6 @@ a:hover {
   background-color: var(--red);
   color: var(--white);
 }
-
 /* logo */
 #companylogo img {
   width: 8rem;
@@ -48,96 +47,167 @@ a:hover {
   padding-top: 1px;
 }
 /* searchbar */
-#searchbar{
-  width:40%;
+#searchbar {
+  width: 40%;
   margin-left: 1rem;
   border-radius: 3px;
 }
-#searchbar button{
-  background-color:lightgray;
-  color:var(--black);
-  border:none;
+#searchbar button {
+  background-color: lightgray;
+  color: var(--black);
+  border: none;
 }
-#searchbar button:hover{
-  background-color:var(--red);
-  color:var(--white);
-  border:none;
+#searchbar button:hover {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
 }
-#searchbar .material-icons{
-  font-size:20px;
-  padding: 5px;  
+#searchbar .material-icons {
+  font-size: 20px;
+  padding: 5px;
 }
-#links li a{
+#links li a {
   color: var(--black);
 }
-#links li :hover{
-  color:var(--red);
+#links li :hover {
+  color: var(--red);
 }
-#wishlisticon span{
+#wishlisticon span {
   font-size: 20px;
   padding-top: 0.3rem;
 }
-#wishlisticon span:hover
-{
+#wishlisticon span:hover {
   color: var(--red);
 }
-#startlearningbutton button{
-border:none;
-padding:0.5rem;
+#startlearningbutton button {
+  border: none;
+  padding: 0.5rem;
 }
 #sb-toggle {
   font-size: 14px;
 }
+.coursescard {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
+.coursecard
+{
+  margin-right: 3rem;
+  padding: 0.5rem;
+}
+.leftimgpart {
+  width: 6rem;
+  margin-left: 2rem;
+  margin-right: 0px;
+}
+.leftimgpart img {
+  width: 100px;
+  height: 50px;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+
+}
+.rightcontentpart p {
+  margin-left: 6rem;
+  margin-bottom: auto;
+  margin-top: -3rem;
+  padding-left: 1.5rem;
+}
+#explorerbutton button{
+  background-color: var(--red);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 3rem;
+  padding: 0.8rem;  
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 7px;
+ 
+}
+#explorerbutton button:hover
+{
+  color: white;
+}
+#explorerbutton
+{
+ text-align: center;
+}
+
+.header
+{
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+}
+.header p{
+  font-size: 32px;
+  font-weight: bolder;
+}
+.logos
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.logo{
+margin: 1rem;
+padding: 0.5rem;
+
+}
+.logo:hover{
+  border: 1px solid var(--red);
+}
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
   #coursesbutton {
-    display:none;
+    display: none;
   }
-  #startlearningbutton button{
-    display:none;
+  #startlearningbutton button {
+    display: none;
   }
   .offcanvas-collapse {
     position: fixed;
     visibility: hidden;
   }
-  #sb-toggle{
+  #sb-toggle {
     margin-bottom: 0.7rem;
-    margin-left:- 0.1rem;
-  
+    margin-left: -0.1rem;
   }
-  
-  #searchbar{
+
+  #searchbar {
     width: 100%;
-    display:flex;
-    padding:1px;
-   padding-bottom: 0.5rem;
-   margin-top: -0.5rem;
+    display: flex;
+    padding: 1px;
+    padding-bottom: 0.5rem;
+    margin-top: -0.5rem;
   }
-  #searchbar input{
-    margin-left:-1rem; 
+  #searchbar input {
+    margin-left: -1rem;
   }
-  #companylogo img{
-  margin-left:-8rem;
-  margin-bottom: 0.5rem;
-  padding:1px,1px,1px,1px;
+  #companylogo img {
+    margin-left: -8rem;
+    margin-bottom: 0.5rem;
+    padding: 1px, 1px, 1px, 1px;
   }
-  #wishlisticon span
-  {
+  #wishlisticon span {
     display: none;
   }
-  #mobilewishlisticon span
-  {
+  #mobilewishlisticon span {
     font-size: 20px;
-    margin-bottom:0.6rem;
+    margin-bottom: 0.6rem;
     margin-right: 0.3rem;
     padding: 1px;
   }
-  #mobilewishlisticon span:hover
-  {
+  #mobilewishlisticon span:hover {
     cursor: pointer;
-    color:var(--red);
+    color: var(--red);
   }
-
 }
 
 /* iPads ----------- */
@@ -147,8 +217,7 @@ padding:0.5rem;
 /* Desktops and laptops ----------- */
 @media only screen and (min-device-width: 1025px) {
   /* all site heading */
-  #mobilewishlisticon
-  {
+  #mobilewishlisticon {
     display: none;
   }
 }
