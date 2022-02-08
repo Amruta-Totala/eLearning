@@ -182,14 +182,12 @@ a:hover {
   margin-right: 1rem;
   cursor: pointer;
 }
-.coursebtn:focus
-{
+.coursebtn:focus {
   background-color: var(--red);
   color: white;
   border: 0ch;
 }
-.programcategorylist
-{
+.programcategorylist {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -198,86 +196,170 @@ a:hover {
   margin-top: 3rem;
   padding-left: 0.5em;
 }
-.programcategorytitle p{
+.programcategorytitle p {
   font-size: 20px;
   font-weight: bolder;
 }
-.viewallnavigation a{
+.viewallnavigation a {
   font-size: 16px;
   font-weight: bolder;
   color: var(--red);
 }
-.ourcoursescards
-{
+.ourcoursescards {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
   margin-left: 10rem;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
   margin-top: 0.7rem;
   padding: 0.5rem;
- 
 }
-.ourcoursescard
-{
-  height: 400px;
-  width:360px;
+.ourcoursescard {
+  height: 413px;
+  width: 360px;
   border: 1px solid #b0bec5;
   border-radius: 10px;
   margin-bottom: 3rem;
   background-color: var(--white);
+  box-shadow: 5px 5px white;
+  margin-right: 2rem;
 }
-.courseimage
-{
+
+.courseimage {
   height: 100%;
 }
-.courseimage img
-{
+.courseimage img {
   width: 100%;
   border: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.universitybody
-{
+.universitybody {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.universityname p{
+.universityname p {
   font-weight: 600;
-    font-size: 14px;
-    color: #45526c;
-    margin-left: 12px;
-    margin-top: 2rem;
-    margin-right: 1.5rem;
-    padding-bottom: 0.5rem; 
+  font-size: 14px;
+  color: #45526c;
+  margin-left: 12px;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+  padding-bottom: 0.5rem;
 }
-.universityimg img
-{
+.universityimg img {
   width: 60px;
   height: 48px;
   margin-top: 1.2rem;
   margin-left: 1rem;
 }
-.universitybodydividar
-{
+.universitybodydividar {
   height: 20px;
   padding-left: 10px;
   border-right: 0.5px solid #dfe1e6;
   margin-top: 2rem;
 }
-.coursename
-{
+.coursename {
   font-size: 16px;
   font-style: normal;
-  padding-left: 0.3rem;
   font-weight: bold;
-  padding-bottom: 1rem;
-  padding-top: 0.5rem;
-  padding-right: 0.3rem;
-  border-bottom: 0.5px solid #dfe1e6;
+  padding: 2px 16px;
+  display: flex;
+  margin-bottom: 0.8rem;
 }
-
+.carbodydivider {
+  margin: 0px 15px;
+  border-top: 0.5px solid #dfe1e6;
+}
+.cardurationtime {
+  display: flex;
+  flex-direction: row;
+}
+.cardbodypointers {
+  margin-top: 0.7rem;
+}
+.cardurationtime {
+  margin-bottom: 0.4rem;
+}
+.cardurationtime p {
+  font-size: 14px;
+  line-height: 100%;
+  color: #45526c;
+  margin: 0;
+  margin-left: 8px;
+  margin-top: 0.4rem;
+}
+.cardbodypointers span {
+  color: #45526c;
+  font-weight: normal;
+  margin-left: 1rem;
+  height: 16px;
+}
+.jobsupport {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.4rem;
+}
+.viewprogrambtn button {
+  width: 90%;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  border: 1px solid rgba(207, 216, 220, 0.3);
+  color: var(--red);
+  font-weight: bold;
+  text-align: center;
+  padding-right: 2.1rem;
+}
+.viewprogrambtn span {
+  position: absolute;
+  margin-left: 0.5rem;
+  color: var(--red);
+  font-size: 25px;
+  text-align: center;
+  margin-top: -0.1rem;
+}
+.viewprogrambtn button:hover {
+  color: var(--red);
+  border: 1px solid var(--red);
+}
+.jobsupport p {
+  font-size: 14px;
+  line-height: 100%;
+  color: #45526c;
+  margin: 0;
+  margin-left: 8px;
+  margin-top: 0.4rem;
+}
+.jobsupport span {
+  color: #45526c;
+  font-weight: normal;
+  margin-left: 1rem;
+  height: 15px;
+}
+.viewallcoursesbtn {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.viewallcoursesbtn button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #fff;
+  padding: 19px 81px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: var(--red);
+}
+.viewallcoursesbtn button:hover
+{
+  color: #fff;
+}
 
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
